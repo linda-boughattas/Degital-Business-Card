@@ -1,7 +1,9 @@
-# Bob Ross's Degital Business Card
+# Degital Business Card
 
 This project is my first static page built using **React** and **Vite**.
 [Check it out](https://degitbuscard.netlify.app/) 😊
+
+PS: The Email and LinkedIn buttons are functional but do not lead to Ross's profile, as he does not have either.
 
 ## Installation
 
