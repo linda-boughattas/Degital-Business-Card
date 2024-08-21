@@ -19,22 +19,15 @@ body{
   margin: 40px auto;
   border-radius: 10px;
 }
-
 .header, .mainContent{
   margin: 0 auto;
   padding: 2rem;
 }
-.footer{
-  background-color: #161619;
-}
 
-.logo {
-  width:30px;
-  height:30px;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 0.8em #aac3feaa);
+
+@media screen and (max-width: 431px) {
+  #root {
+    margin: 0;
+    width: 100%;
+  }
 }

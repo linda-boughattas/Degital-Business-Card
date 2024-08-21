@@ -2,11 +2,11 @@ import Twitter from './assets/Twitter Icon.png'
 import Facebook from './assets/Facebook Icon.png'
 import Instagram from './assets/Instagram Icon.png'
 import Youtube from './assets/Youtube icon.png'
+import './Footer.css'
 
 export default function Footer(){
     return(
         <div className='footer'>
-            <ul>
                 <a href="https://twitter.com/bobrossofficial" >
                 <img src={Twitter} className="logo" alt="Twitter logo" />
                 </a>
@@ -19,7 +19,6 @@ export default function Footer(){
                 <a href="https://www.youtube.com/channel/UCxcnsr1R5Ge_fbTu5ajt8DQ" >
                 <img src={Youtube} className="logo" alt="Youtube logo" />
                 </a>
-            </ul>
         </div>
     )
 }
