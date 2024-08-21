@@ -1,42 +1,112 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
+body{
+  font-family: Inter, sans-serif;
+  color:white;
+  background-color: #23252C;
+  height: 100%;
+
+}
+
+#root {
+  width: 400px;
+  height: 100%;;
+  text-align: center;
+  background-color: #1A1B21;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+.header, .mainContent{
+  margin: 0 auto;
+  padding: 2rem;
+}
+.footer{
+  background-color: #161619;
+}
+.pictureOfRoss{
+  border-radius: 10px 10px 0 0;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+.pictureOfRoss >img{
+  min-width: 100%;
+  min-height: 100%
+}
 .logo {
-  height: 6em;
+  width:30px;
+  height:30px;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 0.8em #aac3feaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* -----style----- */
+.header > h1{
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.header > h3{
+  font-size: 15px;
+  color:#F3BF99;
+  font-weight: 400;
+}
+.header > a{
+  font-size: 12px;
+  text-decoration: underline;
+  color:white;
 }
 
-.card {
-  padding: 2em;
+.buttons {
+  height: fit-content;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+
 }
 
-.read-the-docs {
-  color: #888;
+.buttons >button{
+  width:125px;
+  height: 38px;
+  text-align: center;
+  vertical-align: center;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.buttons >button > img{
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.email--icon{
+  width: auto;
+  height: 20px;
+  margin-bottom: 1px;
+}
+.linkedin--icon{
+  width: auto;
+  height: 18px;
+  margin-bottom: 2px;
+}
+.email{
+  background-color: white;
+  color: black;
+}
+.linkedin{
+  background-color: #5093E2;
+  color: white;
 }
