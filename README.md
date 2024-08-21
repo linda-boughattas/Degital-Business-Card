@@ -1,6 +1,7 @@
 # Bob Ross's Degital Business Card
 
 This project is my first static page built using **React** and **Vite**.
+[Check it out](https://degitbuscard.netlify.app/) 😊
 
 ## Installation
 
