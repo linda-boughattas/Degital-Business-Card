@@ -1,0 +1,31 @@
+.mainContent {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.mainContent>h2{
+    font-size: 20px;
+}
+.mainContent>p, ul{
+    margin-top: 10px
+}
+.skills{
+    margin-top: 20px;
+}
+.mainContent > ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjusts spacing between pills */
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+}
+.mainContent > ul > li {
+    flex: 1 1 30%; /* Allows the pills to grow and shrink, adjust 30% as needed */
+    font-size: 1rem;
+    border: 1px solid white;
+    border-radius: 100em;
+    overflow: clip;
+    box-sizing: border-box;
+    padding: 6px 18px;
+    text-align: center;
+}

@@ -1,6 +1,7 @@
 import BobRoss from './assets/bobross.jpg'
 import Email from './assets/email.png'
 import LinkedIn from './assets/linkedin.png'
+import './Header.css'
 
 export default function Header(){
     return(
